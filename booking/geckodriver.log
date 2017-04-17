@@ -1,0 +1,1325 @@
+1488056887545	geckodriver	INFO	Listening on 127.0.0.1:57167
+1488056889061	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.yf4YMdY1QTLc
+1488056889063	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488056889078	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57183
+1488056889867	Marionette	INFO	Listening on port 57183
+1488056912085	geckodriver	INFO	Listening on 127.0.0.1:57211
+1488056913168	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.HGOnJeXh3g7b
+1488056913170	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488056913180	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57220
+1488056913707	Marionette	INFO	Listening on port 57220
+1488057061610	geckodriver	INFO	Listening on 127.0.0.1:57263
+1488057062690	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.DqTpECgHQWyY
+1488057062691	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488057062707	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57272
+1488057063228	Marionette	INFO	Listening on port 57272
+console.error: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 15
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js
+    - lineNumber = 913
+    - location = {"name":"get ruleCount","language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","lineNumber":913,"columnNumber":1,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.getSheet","lineNumber":347,"columnNumber":9,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheet","lineNumber":254,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheets","lineNumber":228,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.highlight","lineNumber":130,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js","name":"PageStyleActor<.getApplied<","lineNumber":447,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl.prototype._run","lineNumber":311,"columnNumber":39,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl","lineNumber":273,"columnNumber":3,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"createAsyncFunction/asyncFunction","lineNumber":247,"columnNumber":14,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js","name":"generateRequestHandlers/</handler","lineNumber":1044,"columnNumber":19,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js","name":"onPacket","lineNumber":1707,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js","name":"ChildDebuggerTransport.prototype.receiveMessage","lineNumber":752,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1\nCssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}}
+    - message = A parameter or an operation is not supported by the underlying object
+    - name = InvalidAccessError
+    - result = 2152923151
+    - stack = get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1|CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9|CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20|CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5|CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7|PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5|TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39|TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3|createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14|generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19|onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15|ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7|
+  - prototype Error
+  - prototype Object
+get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1
+CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9
+CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20
+CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5
+CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter30
+1488057535722	geckodriver	INFO	Listening on 127.0.0.1:57489
+1488057536810	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.pdDjFXqtxlRn
+1488057536811	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488057536823	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57498
+1488057537332	Marionette	INFO	Listening on port 57498
+1488057758691	geckodriver	INFO	Listening on 127.0.0.1:57604
+1488057759810	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.bSL29cOzW5g6
+1488057759811	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488057759823	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57613
+1488057760401	Marionette	INFO	Listening on port 57613
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:508:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype.onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:457:5
+Line: 1551, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:508:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype.onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:457:5
+Line: 1551, column: 0
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:508:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype.onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:457:5
+Line: 1551, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:508:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype.onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:457:5
+Line: 1551, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+NetworkResponseListener.prototype.onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+NetworkResponseListener.prototype.onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:691:7
+Line: 1551, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+NetworkResponseListener.prototype.onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+NetworkResponseListener.prototype.onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:691:7
+Line: 1551, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+NetworkResponseListener.prototype.onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+NetworkResponseListener.prototype.onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:691:7
+Line: 1551, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1551"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1551:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:641:5
+NetworkResponseListener.prototype.onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:598:7
+NetworkResponseListener.prototype.onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:691:7
+Line: 1551, column: 0
+1488057893456	geckodriver	INFO	Listening on 127.0.0.1:57804
+1488057894536	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.SQSkEUFe902E
+1488057894538	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488057894550	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57824
+1488057895064	Marionette	INFO	Listening on port 57824
+1488058556582	geckodriver	INFO	Listening on 127.0.0.1:57964
+1488058557695	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.kXth1sfnIdgI
+1488058557697	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488058557708	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57973
+1488058558221	Marionette	INFO	Listening on port 57973
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter30
+1488059698639	geckodriver	INFO	Listening on 127.0.0.1:58409
+1488059699740	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.vC7deFTD5zfW
+1488059699741	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488059699753	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58418
+1488059700270	Marionette	INFO	Listening on port 58418
+1488059935400	geckodriver	INFO	Listening on 127.0.0.1:58705
+1488059936486	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.CB7J8zQNLu5V
+1488059936488	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488059936499	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58714
+1488059937007	Marionette	INFO	Listening on port 58714
+1488060025252	geckodriver	INFO	Listening on 127.0.0.1:58875
+1488060026338	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.dPAj02Rb89nT
+1488060026339	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488060026350	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58884
+1488060026859	Marionette	INFO	Listening on port 58884
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+console.error: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 15
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js
+    - lineNumber = 913
+    - location = {"name":"get ruleCount","language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","lineNumber":913,"columnNumber":1,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.getSheet","lineNumber":347,"columnNumber":9,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheet","lineNumber":254,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheets","lineNumber":228,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.highlight","lineNumber":130,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js","name":"PageStyleActor<.getApplied<","lineNumber":447,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl.prototype._run","lineNumber":311,"columnNumber":39,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl","lineNumber":273,"columnNumber":3,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"createAsyncFunction/asyncFunction","lineNumber":247,"columnNumber":14,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js","name":"generateRequestHandlers/</handler","lineNumber":1044,"columnNumber":19,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js","name":"onPacket","lineNumber":1707,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js","name":"ChildDebuggerTransport.prototype.receiveMessage","lineNumber":752,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1\nCssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}}
+    - message = A parameter or an operation is not supported by the underlying object
+    - name = InvalidAccessError
+    - result = 2152923151
+    - stack = get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1|CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9|CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20|CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5|CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7|PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5|TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39|TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3|createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14|generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19|onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15|ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7|
+  - prototype Error
+  - prototype Object
+get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1
+CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9
+CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20
+CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5
+CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+1488060746103	geckodriver	INFO	Listening on 127.0.0.1:59195
+1488060747202	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.FFrGBHCK8SH7
+1488060747204	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488060747215	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59216
+1488060747723	Marionette	INFO	Listening on port 59216
+1488060911209	geckodriver	INFO	Listening on 127.0.0.1:59399
+1488060912291	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.Rrc6uKBH1dQk
+1488060912293	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488060912305	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59408
+1488060912812	Marionette	INFO	Listening on port 59408
+1488061128055	geckodriver	INFO	Listening on 127.0.0.1:59615
+1488061129135	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.DotkyS5qLudJ
+1488061129136	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488061129148	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59624
+1488061129662	Marionette	INFO	Listening on port 59624
+1488061194463	geckodriver	INFO	Listening on 127.0.0.1:59722
+1488061195554	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.m8WS72GRV4xM
+1488061195556	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488061195567	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59731
+1488061196080	Marionette	INFO	Listening on port 59731
+1488061249723	geckodriver	INFO	Listening on 127.0.0.1:59830
+1488061250812	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.UIMfPQPJsB8I
+1488061250814	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488061250826	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59839
+1488061251340	Marionette	INFO	Listening on port 59839
+console.error: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 15
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js
+    - lineNumber = 913
+    - location = {"name":"get ruleCount","language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","lineNumber":913,"columnNumber":1,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.getSheet","lineNumber":347,"columnNumber":9,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheet","lineNumber":254,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheets","lineNumber":228,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.highlight","lineNumber":130,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js","name":"PageStyleActor<.getApplied<","lineNumber":447,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl.prototype._run","lineNumber":311,"columnNumber":39,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl","lineNumber":273,"columnNumber":3,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"createAsyncFunction/asyncFunction","lineNumber":247,"columnNumber":14,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js","name":"generateRequestHandlers/</handler","lineNumber":1044,"columnNumber":19,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js","name":"onPacket","lineNumber":1707,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js","name":"ChildDebuggerTransport.prototype.receiveMessage","lineNumber":752,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1\nCssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}}
+    - message = A parameter or an operation is not supported by the underlying object
+    - name = InvalidAccessError
+    - result = 2152923151
+    - stack = get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1|CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9|CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20|CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5|CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7|PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5|TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39|TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3|createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14|generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19|onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15|ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7|
+  - prototype Error
+  - prototype Object
+get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1
+CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9
+CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20
+CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5
+CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 15
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js
+    - lineNumber = 913
+    - location = {"name":"get ruleCount","language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","lineNumber":913,"columnNumber":1,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.getSheet","lineNumber":347,"columnNumber":9,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheet","lineNumber":254,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheets","lineNumber":228,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.highlight","lineNumber":130,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js","name":"PageStyleActor<.getApplied<","lineNumber":447,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl.prototype._run","lineNumber":311,"columnNumber":39,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl","lineNumber":273,"columnNumber":3,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"createAsyncFunction/asyncFunction","lineNumber":247,"columnNumber":14,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js","name":"generateRequestHandlers/</handler","lineNumber":1044,"columnNumber":19,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js","name":"onPacket","lineNumber":1707,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js","name":"ChildDebuggerTransport.prototype.receiveMessage","lineNumber":752,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1\nCssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}}
+    - message = A parameter or an operation is not supported by the underlying object
+    - name = InvalidAccessError
+    - result = 2152923151
+    - stack = get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1|CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9|CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20|CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5|CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7|PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5|TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39|TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3|createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14|generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19|onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15|ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7|
+  - prototype Error
+  - prototype Object
+get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1
+CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9
+CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20
+CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5
+CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+1488061563904	geckodriver	INFO	Listening on 127.0.0.1:60067
+1488061564984	mozprofile::profile	INFO	Using profile path /var/folders/gv/9w88b9115y54b1zkbkbrd1rh0000gn/T/rust_mozprofile.ej0ZSaGuOqoT
+1488061564985	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1488061564997	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60076
+1488061565503	Marionette	INFO	Listening on port 60076
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+console.error: 
+DOMException
+  - prototype DOMException
+    - ABORT_ERR = 20
+    - DATA_CLONE_ERR = 25
+    - DOMSTRING_SIZE_ERR = 2
+    - HIERARCHY_REQUEST_ERR = 3
+    - INDEX_SIZE_ERR = 1
+    - INUSE_ATTRIBUTE_ERR = 10
+    - INVALID_ACCESS_ERR = 15
+    - INVALID_CHARACTER_ERR = 5
+    - INVALID_MODIFICATION_ERR = 13
+    - INVALID_NODE_TYPE_ERR = 24
+    - INVALID_STATE_ERR = 11
+    - NAMESPACE_ERR = 14
+    - NETWORK_ERR = 19
+    - NOT_FOUND_ERR = 8
+    - NOT_SUPPORTED_ERR = 9
+    - NO_DATA_ALLOWED_ERR = 6
+    - NO_MODIFICATION_ALLOWED_ERR = 7
+    - QUOTA_EXCEEDED_ERR = 22
+    - SECURITY_ERR = 18
+    - SYNTAX_ERR = 12
+    - TIMEOUT_ERR = 23
+    - TYPE_MISMATCH_ERR = 17
+    - URL_MISMATCH_ERR = 21
+    - VALIDATION_ERR = 16
+    - WRONG_DOCUMENT_ERR = 4
+    - code = 15
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js
+    - lineNumber = 913
+    - location = {"name":"get ruleCount","language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","lineNumber":913,"columnNumber":1,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.getSheet","lineNumber":347,"columnNumber":9,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheet","lineNumber":254,"columnNumber":20,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype._cacheSheets","lineNumber":228,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js","name":"CssLogic.prototype.highlight","lineNumber":130,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js","name":"PageStyleActor<.getApplied<","lineNumber":447,"columnNumber":5,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl.prototype._run","lineNumber":311,"columnNumber":39,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"TaskImpl","lineNumber":273,"columnNumber":3,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js","name":"createAsyncFunction/asyncFunction","lineNumber":247,"columnNumber":14,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js","name":"generateRequestHandlers/</handler","lineNumber":1044,"columnNumber":19,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js","name":"onPacket","lineNumber":1707,"columnNumber":15,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":{"language":2,"languageName":"JavaScript","filename":"resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js","name":"ChildDebuggerTransport.prototype.receiveMessage","lineNumber":752,"columnNumber":7,"sourceLine":"","asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}},"formattedStack":"get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1\nCssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9\nCssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20\nCssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5\nCssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7\nPageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5\nTaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39\nTaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3\ncreateAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14\ngenerateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19\nonPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15\nChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7\n","nativeSavedFrame":{}}
+    - message = A parameter or an operation is not supported by the underlying object
+    - name = InvalidAccessError
+    - result = 2152923151
+    - stack = get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1|CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9|CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20|CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5|CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7|PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5|TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39|TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3|createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14|generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19|onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15|ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7|
+  - prototype Error
+  - prototype Object
+get ruleCount@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:913:1
+CssLogic.prototype.getSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:347:9
+CssLogic.prototype._cacheSheet@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:254:20
+CssLogic.prototype._cacheSheets@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:228:5
+CssLogic.prototype.highlight@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/css-logic.js:130:7
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:447:5
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+console.error: 
+  Protocol error (unknownError): A parameter or an operation is not supported by the underlying object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+*************************
+console.error: 
+  Message: TypeError: can't access dead object
+  Stack:
+    PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+
+PageStyleActor<.getAppliedProps@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:684:11
+PageStyleActor<.getApplied<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/styles.js:452:18
+TaskImpl.prototype._run@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:311:39
+TaskImpl@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:273:3
+createAsyncFunction/asyncFunction@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/task.js:247:14
+generateRequestHandlers/</handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1044:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1707:15
+ChildDebuggerTransport.prototype.receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:752:7
+console.error: 
+  Protocol error (unknownError): can't access dead object
+console.error: 
+  Protocol error (unknownError): can't access dead object
+2017-03-05 22:10:28.888 geckodriver[30674:855972] Metadata.framework [Error]: server port invalidated for uid 501
+2017-03-05 22:10:28.888 geckodriver[28560:855978] Metadata.framework [Error]: server port invalidated for uid 501
+2017-03-05 22:10:28.888 geckodriver[28829:855960] Metadata.framework [Error]: server port invalidated for uid 501
+2017-03-05 22:10:29.049 geckodriver[28560:855958] Metadata.framework [Error]: client check-in failed: (268435459) (ipc/send) invalid destination port
+2017-03-05 22:10:29.049 geckodriver[28829:855965] Metadata.framework [Error]: client check-in failed: (268435459) (ipc/send) invalid destination port
+2017-03-05 22:10:29.050 geckodriver[28560:855970] Metadata.framework [Error]: couldn't get the client port
+2017-03-05 22:10:29.050 geckodriver[28829:855969] Metadata.framework [Error]: couldn't get the client port
+2017-03-05 22:10:29.049 geckodriver[30674:855975] Metadata.framework [Error]: client check-in failed: (268435459) (ipc/send) invalid destination port
+2017-03-05 22:10:29.050 geckodriver[30674:855977] Metadata.framework [Error]: couldn't get the client port
