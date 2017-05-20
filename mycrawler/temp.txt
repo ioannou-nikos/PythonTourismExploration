@@ -1,0 +1,5 @@
+visit ,travel to ,monuments of ,landmarks of ,history of ,''
+imathia,thessaloniki,kilkis,pella,pieria,serres,chalkidiki
+
+https://www.booking.com/searchresults.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaFyIAQGYATG4AQfIAQ3YAQHoAQH4AQKSAgF5qAID;sid=c3c20881991e523b01d357c73f163c1a;class_interval=1&dest_id=-829252&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&label_click=undef&mih=0&no_rooms=1&offset=0&postcard=0&room1=A%2CA&sb_price_type=total&src=index&src_elem=ssb&ss=thessaloniki&ss_all=0&ssb=empty&sshis=0&sxp_will_search_domestic_prediction_probability=0.264652798125713&
+https://www.booking.com/searchresults.html?dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&label_click=undef&mih=0&no_rooms=1&offset=0&postcard=0&room1=A%2CA&sb_price_type=total&src=index&src_elem=ssb&ss=thessaloniki&ss_all=0&ssb=empty&sshis=0&sxp_will_search_domestic_prediction_probability=0.264652798125713&
